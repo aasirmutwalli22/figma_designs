@@ -1,0 +1,255 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+        'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Grey800);
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Indigo: var(--Indigo500);
+    --Indigo50: #E8EAF6;
+    --Indigo100: #C5CAE9;
+    --Indigo200: #9FA8DA;
+    --Indigo300: #7986CB;
+    --Indigo400: #5C6BC0;
+    --Indigo500: #3F51B5;
+    --Indigo600: #3949AB;
+    --Indigo700: #303F9F;
+    --Indigo800: #283593;
+    --Indigo900: #1A237E;
+
+    --Grey400: #BDBDBD;
+    --Grey800: #424242;
+
+    --Primary50: var(--Indigo50);
+    --Primary100: var(--Indigo100);
+    --Primary200: var(--Indigo200);
+    --Primary300: var(--Indigo300);
+    --Primary400: var(--Indigo400);
+    --Primary500: var(--Indigo500);
+    --Primary600: var(--Indigo600);
+    --Primary700: var(--Indigo700);
+    --Primary800: var(--Indigo800);
+    --Primary900: var(--Indigo900);
+
+    --PrimaryLight: var(--Indigo300);
+    --Primary: var(--Indigo500);
+    --PrimaryDark: var(--Indigo700);
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 10px;
+    width: 282px;
+
+    background: white;
+    border-radius: 8px;
+}
+
+.form-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: black;
+}
+
+.form-discription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: var(--Grey800);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 63px;
+}
+
+.form-label {
+    height: 24px;
+    line-height: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+
+    display: flex;
+    align-items: center;
+}
+
+.form-divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    height: 20px;
+}
+
+.form-divider-label {
+    height: 12px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: black;
+}
+
+.form-divider-line {
+    width: 71.5px;
+    border: 1px solid var(--Grey400);
+}
+
+.form-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 20px;
+
+    height: 44px;
+}
+
+
+.form-option {
+    height: 20px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: black;
+}
+
+.form-option a {
+    text-decoration-line: underline;
+    color: var(--Primary500);
+}
+
+
+.icon-button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: none;
+}
+
+.icon-button:hover {
+    background: var(--Primary50);
+}
+
+.icon-button:active {
+    background: var(--Primary100);
+}
+
+.icon-button img {
+    width: 36px;
+    height: 36px;
+}
+
+
+.form-input {
+    padding: 10px;
+    height: 40px;
+
+    background: var(--Primary50);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    outline: none;
+
+    font-style: normal;
+    font-weight: 400;
+
+    transition: 0.2s linear;
+}
+
+.form-input:hover {
+    border: 1px solid #7986CB;
+    background: transparent;
+}
+
+.form-input:focus {
+    border: 2px solid #7986CB;
+    padding: 9px;
+    background: transparent;
+}
+
+
+.form-submit {
+    height: 40px;
+
+    background: var(--Primary);
+    border-radius: 8px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+
+    transition: 0.2s linear;
+}
+
+.form-submit:hover {
+    background: var(--Primary600);
+}
+
+.form-submit:active {
+    background: var(--Primary700);
+}
+
+
+.outlined-button {
+    height: 40px;
+    border: 1px solid var(--Primary);
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--Primary);
+
+    transition: 0.2s linear;
+}
+
+.outlined-button:hover {
+    background: var(--Primary50);
+}
+
+.outlined-button:active {
+    background: var(--Primary100);
+}
