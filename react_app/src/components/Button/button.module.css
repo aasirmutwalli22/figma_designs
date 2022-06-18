@@ -1,0 +1,82 @@
+.elevatedButton,
+.outlinedButton,
+.textButton {
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.elevatedButton {
+    background-color: var(--Primary);
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.elevatedButton:hover {
+    background-color: var(--Primary600);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.elevatedButton:active {
+    background-color: var(--Primary700);
+    box-shadow: none;
+}
+
+
+.outlinedButton {
+    border: 1px solid var(--Primary);
+}
+
+.textButton {
+    border: none;
+}
+
+.outlinedButton,
+.textButton {
+    background-color: white;
+    color: var(--Primary);
+}
+
+.outlinedButton:hover,
+.textButton:hover {
+    background: var(--Primary50);
+}
+
+.outlinedButton:active,
+.textButton:active {
+    background: var(--Primary100);
+}
+
+
+.iconButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+    
+    background-color: white;
+
+    width: 36px;
+    height: 36px;
+
+    border: none;
+}
+.iconButton img{
+    width: 36px;
+    height: 36px;
+}
+
+.iconButton:hover {
+    background: var(--Primary50);
+}
+
+.iconButton:active {
+    background: var(--Primary100);
+}

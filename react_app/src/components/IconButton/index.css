@@ -1,0 +1,27 @@
+.icon-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+    
+    background-color: white;
+
+    width: 36px;
+    height: 36px;
+
+    border: none;
+}
+.icon-button img{
+    width: 36px;
+    height: 36px;
+}
+
+.icon-button:hover {
+    background: var(--Primary50);
+}
+
+.icon-button:active {
+    background: var(--Primary100);
+}

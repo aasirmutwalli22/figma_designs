@@ -1,0 +1,32 @@
+:root {
+    --Indigo: var(--Indigo500);
+    --Indigo50: #E8EAF6;
+    --Indigo100: #C5CAE9;
+    --Indigo200: #9FA8DA;
+    --Indigo300: #7986CB;
+    --Indigo400: #5C6BC0;
+    --Indigo500: #3F51B5;
+    --Indigo600: #3949AB;
+    --Indigo700: #303F9F;
+    --Indigo800: #283593;
+    --Indigo900: #1A237E;
+
+    --Grey400: #BDBDBD;
+    --Grey800: #424242;
+
+    --Primary50: var(--Indigo50);
+    --Primary100: var(--Indigo100);
+    --Primary200: var(--Indigo200);
+    --Primary300: var(--Indigo300);
+    --Primary400: var(--Indigo400);
+    --Primary500: var(--Indigo500);
+    --Primary600: var(--Indigo600);
+    --Primary700: var(--Indigo700);
+    --Primary800: var(--Indigo800);
+    --Primary900: var(--Indigo900);
+
+    --PrimaryLight: var(--Indigo300);
+    --Primary: var(--Indigo500);
+    --PrimaryDark: var(--Indigo700);
+
+}

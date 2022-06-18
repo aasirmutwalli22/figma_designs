@@ -1,0 +1,101 @@
+.form-container {
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 10px;
+
+    width: 282px;
+
+    /* border: 1px solid #424242; */
+    border-radius: 8px;
+}
+
+.form-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.form-discription {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #424242;
+}
+.form-submit{
+
+    height: 40px;
+
+    background: var(--Primary);
+    border-radius: 8px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+
+    transition: 0.2s linear;
+}
+
+.form-divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+.form-divider-line{
+    width: 71.5px;
+    border: 1px solid var(--Grey400);
+}
+
+.form-divider-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: black;
+}
+
+.form-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 20px;
+}
+
+.form-option {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.form-option a {
+    text-decoration-line: underline;
+    color: var(--Primary);
+}
